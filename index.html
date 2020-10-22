@@ -1,45 +1,339 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CharchitGupta.me</title>
-      <link rel="stylesheet" href="assets/css/style.css">
-</head>
-<body>
-  <div class="header">
-    <h1>My Porfolio</h1>
-  </div>
-  <div class="container">
-<ul id="horizontal-list">
-<a href="Section1">ABOUT ME</a>
-  <a href="Section2">MY SKILLS</a>
-  <a href="Section3">MY WORK</a>
-  <a href="Section4">CONTACT ME</a>
-</ul>  
-  </div>
-  <div class="sidebar">
-<img  src="assets/images/author.jpg">
-<p>CHARCHIT GUPTA</p>
-<p>Mb.8770501417</p>
-<div class="logo">
- </div>
-  </div>
-  <div class="section1">
-    <div class="aboutme">
-      <h2>ABOUT ME</h2>
-      <p>Hey, I am Charchit Gupta an Electrical and Electronics Engineering Undergraduate at Birla Institute of technology.
-        I compeleted my schooling from Laurels School international,Indore . I playing Volleyball  , Cricket , listening
-        music and watching Webseries. I like interacting with people of different fields and interest . Also , I like practising
-        competitive programming and and learn new logic and concepts of Competitive Programming and Web Devlopment. 
-        I want to pursiew WEB DEVLOPMENT as my career .  
-      </p> 
-    </div>
-  </div>
-  <div class="section2">
-  <div class="skills">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+      integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <title>Charchitg</title>
+  </head>
+  <body>
+    <!-- ********************START OF HEADER SECTION****************-->
+    <div class="header" id="topheader">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container text-uppercase ps-2">
+          <a class="navbar-brand" href="#">MY PORTFOLIO</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto text-uppercase">
+              <li class="nav-item active">
+                <a class="nav-link" href="#"
+                  >Home<span class="sr-only">(current)</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#aboutme">ABOUT ME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#skills">MY SKILLS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#education">education</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#experience">experience</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contacts">CONTACT ME</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <section class="header-section">
+        <div class="center-text">
+          <h1 class="font=weight-bold">Welcome!!!!</h1>
+          <p>this is my portfolio</p>
+          <div class="center-button">
+            <a href="#aboutme"
+              ><button
+                type="button"
+                class="btn btn-outline-secondary text-uppercase"
+              >
+                get started
+              </button></a
+            >
+            <a href="#contacts">
+              <button
+                type="button"
+                class="btn btn-outline-secondary text-uppercase"
+              >
+                contact me
+              </button></a
+            >
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- ************************End of Header Section**************************-->
+
+    <!-- **************************START OF ABOUT ME PAGE*****************************-->
+
+    <div class="container-fluid" id="aboutme">
+      <div class="intro col-lg-6 ">
+        <h2>
+          hey i am 
+          <span>Charchit</span>
+        </h2>
+        <div class="description">
+          <p>
+            I am an Electrical and Electronics Engineering Undergraduate at
+            Birla Institute of technology. I compeleted my schooling from
+            Laurels School international,Indore . I love playing Volleyball ,
+            Cricket , listening music and watching Webseries. I like interacting
+            with people from different fields and interest . Also , I like
+            practising competitive programming and and learn new logic and
+            concepts of Competitive Programming and Web Devlopment. I want to
+            pursiew WEB DEVLOPMENT as my career .
+          </p>
+        </div>
+      </div>
+      <div class="picture col-lg-6">
+        <img
+          src="/assets/images/author.jpg"
+          class="img-rounded img-thumbnail"
+          alt="charchit"
+        />
+
+        <div class="socialmedia">
+          <div class="container">
+            <div class="row">
+              <div class="logo col-sm-3">
+                <a href="https://www.instagram.com/charchit_07/?hl=en"
+                  ><i class="fa-2x fab fa-instagram" aria-hidden="true"></i
+                ></a>
+              </div>
+              <div class="logo col-sm-3">
+                <a href="https://www.facebook.com/charchit.gupta.1"
+                  ><i class="fa-2x fab fa-facebook" aria-hidden="true"></i
+                ></a>
+              </div>
+              <div class="logo col-sm-3">
+                <a href="#"
+                  ><i class="fa-2x fab fa-linkedin-in" aria-hidden="true"></i
+                ></a>
+              </div>
+              <div class="logo col-sm-3">
+                <a href="https://github.com/Charchitg"
+                  ><i class="fa-2x fab fa-github-alt" aria-hidden="true"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- **************************END OF ABOUT ME PAGE*****************************-->
+
+    <!-- **************************start OF skill PAGE*****************************-->
+
+    <section class="skills" id="skills">
+      <div class="heading text-center font-weight-bold">
+        <h2>What i am good at</h2>
+      </div>
+      <div class="container">
+        <div class="services">
+          <h2 class="text-center text-uppercase">html</h2>
+          <div class="progress">
+            <div
+              class="progress-bar progress-bar-striped progress-bar-animated bg-primary"
+              style="width: 90%"
+            >90%</div>
+          </div>
+
+          <h2 class="text-center text-uppercase">css</h2>
+          <div class="progress">
+            <div
+
+              class="progress-bar progress-bar-striped progress-bar-animated bg-success"
+              style="width: 80%"
+            >80%</div>
+          </div>
+          <h2 class="text-center text-uppercase">bootstrap 4</h2>
+          <div class="progress">
+            <div
+              class="progress-bar progress-bar-striped progress-bar-animated bg-info"
+              style="width: 75%"
+            >75%</div>
+          </div>
+          <h2 class="text-center text-uppercase">javascript</h2>
+          <div class="progress">
+            <div
+              class="progress-bar progress-bar-striped progress-bar-animated bg-warning"
+              style="width: 75%"
+            >75%</div>
+          </div>
+          <h2 class="text-center text-uppercase">c & c++</h2>
+          <div class="progress">
+            <div
+              class="progress-bar progress-bar-striped progress-bar-animated bg-dark"
+              style="width: 65%"
+            >65%</div>
+          </div>
+          <h2 class="text-center text-uppercase">python</h2>
+          <div class="progress">
+            <div
+              class="progress-bar progress-bar-striped progress-bar-animated bg-danger"
+              style="width: 55%"
+            >55%</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- **************************END OF skills PAGE*****************************-->
+
+ <!-- **************************start OF education PAGE*****************************-->
+  
+ <section class="education" id="education">
+ <div class="heading text-center text-uppercase">
+   <h2>Education<br/></h2>
+ </div>
+ <div class="container">
+  <div class="row" id="edurow">
+    <div class="col-lg-12 col-md-8 col-sm-10 offset-lg-0 offset-md-2 offset-sm-1">
+    <div class="college">
+      <h1 class="text-uppercase font-weight-bold">birla institute of technology,mesra</h1>
+      <h2 class="text-uppercase font-weight-normal">b.tech in electrical & electronics engineering 2019-present</h2>
+        <h4 class="text-uppercase font-weight-normal">G.P.A : 8.16</h4>
+
+      <h1 class="text-uppercase font-weight-bold">laurels school international , indore</h1>
+      <h2 class="text-uppercase font-weight-normal">indian school certificate (i.s.c) 2017-2019</h2>
+        <h4 class="text-uppercase font-weight-normal ">PERCENTAGE : 86.6%</h4>
+
+
+      <h1 class="text-uppercase font-weight-bold">laurels school international , indore</h1>
+      <h2 class="text-uppercase font-weight-normal ">indian certificate of secondary education (i.c.s.e) 2016-17</h2>
+        <h4 class="text-uppercase font-weight-normal">PERCENTAGE : 92.8%</h4>
+    
+  </div>
+</div>
+</div>
+ </section>
+
+
+
+
+ <!-- **************************END OF education PAGE*****************************-->
+
+    <!-- **************************start OF experience PAGE****x*************************-->
+
+  <section class="experience" id="experience">
+    <div class="heading text-uppercase font-weight-bold">
+      <h2>experiences</h2>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="eeesoc">
+          <h2 class="text-uppercase font-weight-bold">electrical and electronics engineering society (eeesoc) <br/> bit mesra</h2>
+          <h4 class="text-uppercase font-weight-normal">member</h4>
+          <h4  class="text-uppercase font-weight-normal">experience : Feb-2020 till Present</h4>
+        </div>
+        <div class="rotaract">
+          <h2 class="text-uppercase font-weight-bold">rotaract club <br/> bit mesra</h2>
+          <h4  class="text-uppercase font-weight-normal">member</h4>
+          <h4  class="text-uppercase font-weight-normal">experience : july-2020 till Present</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <!-- **************************END OF experience PAGE*****************************-->
+    <!-- **************************start OF contact PAGE*****************************-->
+    
+   <section class="contactme" id="contacts">
+      <div class="heading text-center font-weight-bold">
+        <h2>contact me</h2>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-8 col-sm-10 offset-lg-2 offset-md-2 offset-sm-2">
+         <form action="">
+           <div class="form-group">
+           <label for="username" >Name</label>
+           <input type="text" class="form-control" id="username" required autocomplete="off" placeholder="Enter your Name">
+          </div>
+
+          <div class="form-group">
+            <label for="Email" >E-Mail Address</label>
+            <input type="email" class="form-control" id="Email" required autocomplete="off"placeholder="Enter your E-mail Address">
+           </div>
+
+           <div class="form-group">
+            <label for="Mobile" >Mobile Number</label>
+            <input type="text" class="form-control" id="mobile" required autocomplete="off" placeholder="Enter your Mobile Number">
+           </div>
+           
+           <div class="form-group">
+           <label for="Comment">Comments</label>
+           <textarea class="form-control" rows="5" id="Comment" placeholder="Enter your Comments"></textarea>
+           </div>
+
+           
+         </form>
+
+
+
+         <button type="submit" class="btn btn-outline-light">Submit</button>
   </div>
   </div>
-</body>
+</div>
+    </section>
+
+
+<!-- **************************END OF contact PAGE*****************************-->
+
+<!-- **************************start of footer section*****************************-->
+<footer>
+
+</footer>
+
+<!-- **************************end of footer section*****************************-->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
