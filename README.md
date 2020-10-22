@@ -1,2 +1,2 @@
 # Charchitg.github.io
-hey! , this is my Portfolio - my first website 
+Hey! , This is my Portfolio - My First Website 
